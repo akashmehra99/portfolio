@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Mehra | Senior Full Stack Engineer</title>
+    <meta name="description"
+        content="Portfolio of Akash Mehra, Senior Full Stack Engineer focused on scalable systems, micro frontends, and AI workflows.">
+    <meta property="og:title" content="Akash Mehra | Senior Full Stack Engineer" />
+    <meta property="og:description"
+        content="Portfolio of Akash Mehra, Senior Full Stack Engineer focused on scalable systems, micro frontends, and AI workflows." />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Akash Mehra | Senior Full Stack Engineer">
+    <meta name="twitter:description"
+        content="Portfolio of Akash Mehra, Senior Full Stack Engineer focused on scalable systems, micro frontends, and AI workflows.">
+    <!-- Meta tags for SEO & Perf -->
+    <link rel="icon" type="image/svg+xml" href="./assets/icons/favicon.svg">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Person",
+          "name": "Akash Mehra",
+          "jobTitle": "Senior Full Stack Engineer",
+          "url": "https://akashmehra99.github.io/resume",
+          "sameAs": [
+            "https://www.linkedin.com/in/akash-mehra-980a6181/",
+            "https://github.com/akashmehra99"
+          ]
+        }
+    </script>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <span class="logo">Akash Mehra</span>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#resume">Resume</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobile-menu">
+        <button id="close-menu" class="close-menu" aria-label="Close menu">&times;</button>
+        <nav class="mobile-nav-links">
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#skills" class="mobile-link">Skills</a>
+            <a href="#projects" class="mobile-link">Projects</a>
+            <a href="#resume" class="mobile-link">Resume</a>
+        </nav>
+    </div>
+
+    <main class="container">
+        <!-- 1️⃣ HERO SECTION -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content fade-in-up">
+                <p class="greeting">Hello! I Am</p>
+                <h1 class="name">Akash Mehra</h1>
+                <h2 class="role">Engineer who <br>builds <span class="neon-text">systems</span> & scale.</h2>
+                <p class="positioning">Currently building scalable AI flows and architectures.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#about" class="btn btn-outline">About Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2️⃣ ABOUT SECTION -->
+        <section id="about" class="about-section slide-up">
+            <h2 class="section-title">01. About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a Senior Full Stack Engineer with 11+ years of experience architecting scalable, performant
+                        web applications and backend services.</p>
+                    <div class="highlight-grid">
+                        <div class="highlight-item">
+                            <h3>Micro Frontends & Architecture</h3>
+                            <p>Engineered Module Federation and Nx monorepo architectures to scale frontend development,
+                                reducing deployment times by 20% and frontend development effort by 60%.</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h3>AI & Agent Workflows</h3>
+                            <p>Built AI agent workflows using CrewAI, Go, and Model Context Protocol (MCP) integrations
+                                with Salesforce to automate quote creation and streamline business processes.</p>
+                        </div>
+                        <div class="highlight-item">
+                            <h3>Scalable Systems & Reliability</h3>
+                            <p>Delivered highly optimized events platforms supporting 1M+ users (50K+ concurrent),
+                                maintaining a 95%+ success rate in resolving production incidents and strictly meeting
+                                SLAs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3️⃣ SKILLS SECTION -->
+        <section id="skills" class="skills-section slide-up">
+            <h2 class="section-title">02. Technical Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <svg viewBox="0 0 24 24" fill="none" class="skill-icon" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                        </svg>
+                        <h3>Frontend Systems</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><i class="devicon-react-original colored"></i> React & <i class="devicon-nextjs-plain"></i>
+                            Next.js</li>
+                        <li><i class="devicon-angularjs-plain colored"></i> Angular & <i
+                                class="devicon-vuejs-plain colored"></i> Vue.js</li>
+                        <li><i class="devicon-typescript-plain colored"></i> TypeScript & ES6+</li>
+                        <li><i class="devicon-html5-plain colored"></i> HTML5 & Modern CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <svg viewBox="0 0 24 24" fill="none" class="skill-icon" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3" />
+                            <path
+                                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
+                        </svg>
+                        <h3>Architecture & Monorepos</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-cubes" style="color:var(--primary)"></i> Micro Frontends</li>
+                        <li><i class="fas fa-network-wired" style="color:var(--primary)"></i> Module Federation</li>
+                        <li><i class="fas fa-layer-group" style="color:var(--primary)"></i> Nx Monorepos</li>
+                        <li><i class="fas fa-palette" style="color:var(--primary)"></i> Design Systems</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <svg viewBox="0 0 24 24" fill="none" class="skill-icon" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="8" rx="2" ry="2" />
+                            <rect x="2" y="14" width="20" height="8" rx="2" ry="2" />
+                            <line x1="6" y1="6" x2="6.01" y2="6" />
+                            <line x1="6" y1="18" x2="6.01" y2="18" />
+                        </svg>
+                        <h3>Backend & APIs</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><i class="devicon-nodejs-plain-wordmark colored"></i> Node.js (Express/Nest)</li>
+                        <li><i class="devicon-go-original-wordmark colored"></i> Go & <i
+                                class="devicon-java-plain colored"></i> Java (Spring Boot)</li>
+                        <li><i class="devicon-graphql-plain colored"></i> GraphQL & REST</li>
+                        <li><i class="devicon-nestjs-plain colored"></i> Microservices</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <svg viewBox="0 0 24 24" fill="none" class="skill-icon" stroke="currentColor" stroke-width="2">
+                            <ellipse cx="12" cy="5" rx="9" ry="3" />
+                            <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                        </svg>
+                        <h3>Data & DevOps</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><i class="devicon-amazonwebservices-plain-wordmark colored"></i> AWS Cloud Native</li>
+                        <li><i class="devicon-mongodb-plain-wordmark colored"></i> MongoDB, <i
+                                class="devicon-mysql-plain colored"></i> SQL, <i
+                                class="devicon-redis-plain colored"></i> Redis</li>
+                        <li><i class="devicon-docker-plain-wordmark colored"></i> Docker & CI/CD</li>
+                        <li><i class="devicon-terraform-plain colored"></i> Terraform & EKS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <svg viewBox="0 0 24 24" fill="none" class="skill-icon" stroke="currentColor" stroke-width="2">
+                            <polygon
+                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                        </svg>
+                        <h3>AI & Local LLM</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-brain" style="color:var(--primary)"></i> Model Context Protocol (MCP)</li>
+                        <li><i class="fas fa-robot" style="color:var(--primary)"></i> CrewAI & LangChain</li>
+                        <li><i class="fas fa-server" style="color:var(--primary)"></i> Ollama & Claude CLI</li>
+                        <li><i class="fas fa-user-astronaut" style="color:var(--primary)"></i> Custom AI Agents</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <svg viewBox="0 0 24 24" fill="none" class="skill-icon" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                            <polyline points="22 4 12 14.01 9 11.01" />
+                        </svg>
+                        <h3>Performance & Quality</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><i class="devicon-chrome-plain colored"></i> Web Vitals Optimization</li>
+                        <li><i class="devicon-jest-plain colored"></i> Jest, <i class="fas fa-vial"
+                                style="color:#04C38E"></i> Cypress, <i class="devicon-playwright-plain colored"></i>
+                            Playwright</li>
+                        <li><i class="devicon-html5-plain colored"></i> WCAG Accessibility</li>
+                        <li><i class="devicon-google-plain colored"></i> Performance Profiling</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4️⃣ PROJECTS SECTION -->
+        <section id="projects" class="projects-section slide-up">
+            <h2 class="section-title">03. Selected Work</h2>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Enterprise CPQ Sales Automation Engine</h3>
+                    <div class="project-links">
+                        <span aria-label="Confidential" class="project-label">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                            </svg>
+                            Confidential
+                        </span>
+                    </div>
+                </div>
+                <p class="problem-statement"><strong>Problem:</strong> Existing sales workflows required 2+ hours for
+                    proposal creation, bottlenecking global expansion and slowing revenue generation.</p>
+
+                <details class="architecture-details">
+                    <summary>Architecture & Implementation Overview</summary>
+                    <div class="details-content">
+                        <p><strong>Architecture:</strong> Orchestrated an event-driven Go microservices backend with a
+                            scalable React-based Micro Frontend architecture. Implemented AI-driven automation using
+                            CrewAI and MCP integrations for Salesforce interactions directly via a conversational
+                            interface.</p>
+                        <p><strong>Tradeoffs:</strong> Chose a conversational AI approach over complex UI forms for
+                            quote generation, which slightly increased initial prompt-engineering complexity but
+                            resulted in significantly higher seller adoption.</p>
+                        <p><strong>Scalability:</strong> Deployed via Terraform onto AWS EKS, enabling auto-scaling
+                            during high-volume end-of-quarter sales periods.</p>
+                        <p><strong>Future Improvements:</strong> Integration with local LLM models to reduce external
+                            API latency and improve offline capabilities.</p>
+                    </div>
+                </details>
+
+                <div class="project-stack">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Go</span>
+                    <span class="tech-tag">AWS</span>
+                    <span class="tech-tag">CrewAI</span>
+                    <span class="tech-tag">Salesforce API</span>
+                </div>
+                <div class="project-impact">
+                    <p><strong>Impact:</strong> Reduced proposal creation time by >90% (from 2 hours to 10 minutes) and
+                        increased quote acceptance rate by 30%.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Global Events Platform (Verizon)</h3>
+                    <div class="project-links">
+                        <span aria-label="Confidential" class="project-label">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                            </svg>
+                            Confidential
+                        </span>
+                    </div>
+                </div>
+                <p class="problem-statement"><strong>Problem:</strong> Needed a highly scalable, accessible platform to
+                    support massive virtual events during the pandemic without performance degradation.</p>
+
+                <details class="architecture-details">
+                    <summary>Architecture & Implementation Overview</summary>
+                    <div class="details-content">
+                        <p><strong>Architecture:</strong> Re-architected into an Nx Monorepo, deploying a custom React
+                            component library. Implemented rigorous memory management and React reconciliation
+                            optimizations to prevent UI thread blocking.</p>
+                        <p><strong>Tradeoffs:</strong> Adopted strict WCAG compliance early in the development cycle,
+                            which initially slowed velocity but ultimately eliminated a costly auditing phase.</p>
+                        <p><strong>Scalability:</strong> Designed client-side state to seamlessly handle real-time
+                            WebSocket events for 50,000+ concurrent attendees per instance.</p>
+                    </div>
+                </details>
+
+                <div class="project-stack">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">TypeScript</span>
+                    <span class="tech-tag">Nx Monorepo</span>
+                    <span class="tech-tag">WebSockets</span>
+                    <span class="tech-tag">WCAG</span>
+                </div>
+                <div class="project-impact">
+                    <p><strong>Impact:</strong> Supported 1M+ total users with a 30% page load optimization and a 70%
+                        increase in accessibility usability scores.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5️⃣ RESUME SECTION -->
+        <section id="resume" class="resume-section slide-up">
+            <h2 class="section-title">04. Experience & Resume</h2>
+            <div class="resume-content">
+                <div class="experience-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Feb 2025 - Present</div>
+                        <div class="timeline-details">
+                            <h3>Senior Full Stack Engineer</h3>
+                            <h4>Docusign</h4>
+                            <p>Led end-to-end design and development of an in-house CPQ product (React, Node, Go, AWS).
+                                Built an AI bot agent in Go and CrewAI with MCPs connected to Salesforce to automate
+                                quote creation directly via chat interface, reducing quote creation time by 20% and
+                                increasing acceptance by 30%. Formed and led the Platform Engineering team delivering
+                                self-service platform services (CI/CD, IaC, observability), defining standards via
+                                GitHub Actions, Terraform on AWS/EKS, reducing developers onboarding time and
+                                streamlining CORS, security, DB connections via CLI tools.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Mar 2023 - Feb 2025</div>
+                        <div class="timeline-details">
+                            <h3>Senior Software Engineer</h3>
+                            <h4>Walmart Global Tech</h4>
+                            <p>Architected Module Federation micro frontend architecture reducing deployment times by
+                                20%. Designed scalable React component libraries to standardized development. Improved
+                                global app performance by 40% optimizing React reconciliation and memory management. Led
+                                test automation implementation (Playwright & Vitest) and defined scalable GraphQL
+                                schemas with backend teams.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Aug 2020 - Mar 2023</div>
+                        <div class="timeline-details">
+                            <h3>Lead Web Developer</h3>
+                            <h4>Verizon (Bluejeans)</h4>
+                            <p>Designed and built an Nx monorepo architecture, increasing code sharing and decreasing
+                                deployment duplication. Built scalable React and TypeScript UI component library
+                                reducing frontend dev effort by 60%. Spearheaded frontend delivery for large-scale event
+                                applications supporting 1M+ users and 50K+ concurrent connections. Shipped
+                                WCAG-compliant features increasing usability scores by 70%, and created Virtual
+                                Background and Background Blur features resulting in 40% increase in user satisfaction.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Oct 2018 - Aug 2020</div>
+                        <div class="timeline-details">
+                            <h3>Senior Front End Web Developer</h3>
+                            <h4>Amadeus Labs Pvt. Ltd.</h4>
+                            <p>Developed custom websites and advanced UI frameworks for global clients reducing
+                                prototyping time by 30%. Provided guidance on UI best practices resulting in a 12%
+                                improvement in web app load metrics. Resolved high-priority defects ensuring SLA
+                                compliance.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Apr 2018 - Oct 2018</div>
+                        <div class="timeline-details">
+                            <h3>Front End Web Developer</h3>
+                            <h4>Lbrands</h4>
+                            <p>Revamped in-house templating application using HTML Handlebars streamlining creation
+                                loops and optimizing load times by 4%. Simplfied HTML markup to resolve JS thrashing
+                                decreasing rendering delays.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">June 2016 - April 2018</div>
+                        <div class="timeline-details">
+                            <h3>Business Technology Analyst</h3>
+                            <h4>Deloitte Consulting USI</h4>
+                            <p>Designed 2 universal SPA mirror portals aligning perfectly with Guidewire requirements.
+                                Created a universal tracking implementation with Google Analytics dramatically improving
+                                analytics precision by 80%. Managed high-priority backlog resolutions ensuring minimum
+                                app downtime.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Aug 2014 - June 2016</div>
+                        <div class="timeline-details">
+                            <h3>Project Engineer</h3>
+                            <h4>Wipro Technologies Pvt. Ltd.</h4>
+                            <p>Solved tier-1 production incidents minimizing downtime by 10%. Acted as lead requirements
+                                gatherer implementing tailored solutions tracking 10% total improvement in operational
+                                efficiency output.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-download-area">
+                <p>For a detailed breakdown of my full 11+ years of experience across all roles, check out my
+                    interactive resume.</p>
+                <div style="display: flex; justify-content: center;">
+                    <a href="https://akashmehra99.github.io/resume/" target="_blank" class="btn btn-primary">View
+                        Interactive Resume</a>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- 7️⃣ CONTACT SECTION -->
+        <section id="contact" class="contact-section slide-up">
+            <h2 class="section-title">06. Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm currently looking for new opportunities to architect scalable, high-impact systems. Whether you
+                    have a question or just want to say hi, my inbox is open.</p>
+                <a href="mailto:akash.mehra99@gmail.com" class="btn btn-primary email-btn">akash.mehra99@gmail.com</a>
+
+                <div class="social-links">
+                    <a href="https://github.com/akashmehra99" class="social-icon github-icon" target="_blank"
+                        aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/akash-mehra-980a6181/" class="social-icon linkedin-icon"
+                        target="_blank" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="mailto:akash.mehra99@gmail.com" class="social-icon mail-icon" aria-label="Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 🧠 ENGINEERING PHILOSOPHY -->
+        <section id="philosophy" class="philosophy-section slide-up">
+            <h2 class="section-title">Engineering Philosophy</h2>
+            <div class="philosophy-grid">
+                <div class="phil-item">
+                    <h4>Why clean architecture matters</h4>
+                    <p>Maintainability is a feature. Proper separation of concerns—like Micro Frontends or Domain-Driven
+                        Design—prevents the codebase from becoming a bottleneck to product velocity.</p>
+                </div>
+                <div class="phil-item">
+                    <h4>Why performance matters</h4>
+                    <p>Performance is user experience. Every millisecond saved in TTFB or reconciliation translates
+                        directly to engagement, accessibility, and ultimately, conversions.</p>
+                </div>
+                <div class="phil-item">
+                    <h4>Why modularity scales</h4>
+                    <p>High cohesion and loose coupling allow teams to ship autonomously. Sharing tools (like CLI
+                        generators) instead of tightly coupled runtime code prevents merge hell.</p>
+                </div>
+                <div class="phil-item">
+                    <h4>Why clarity beats cleverness</h4>
+                    <p>Code is read far more often than it's written. A "clever" one-liner ruins debuggability. Write
+                        explicit, testable, and robust code over esoteric syntax.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <span class="logo">Akash Mehra</span>
+                    <p>Engineer. Architect. Builder.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Navigation</h4>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Work</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Connect</h4>
+                        <a href="https://github.com/akashmehra99" target="_blank">GitHub</a>
+                        <a href="https://www.linkedin.com/in/akash-mehra-980a6181/" target="_blank">LinkedIn</a>
+                        <a href="mailto:akash.mehra99@gmail.com">Email</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Akash Mehra. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
