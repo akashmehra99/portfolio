@@ -31,7 +31,7 @@
   --spacing-5: 48px;
   --spacing-6: 64px;
   --spacing-8: 96px;
-  --section-gap: 120px;
+  --section-gap: 70px;
 
   --container-width: 1200px;
   --border-radius: 16px;
@@ -995,15 +995,23 @@ section {
     flex-direction: column;
     gap: var(--spacing-1);
   }
+  .timeline-date {
+    flex-basis: 36px;
+  }
 }
 
 .timeline-date {
-  flex-basis: 150px;
+  flex-basis: 200px;
   flex-shrink: 0;
   color: var(--primary);
   font-family: monospace;
   font-size: var(--fs-sm);
   font-weight: 600;
+}
+@media (max-width: 768px) {
+  .timeline-date {
+    flex-basis: 36px;
+  }
 }
 
 .timeline-details h3 {
@@ -1153,7 +1161,6 @@ section {
   text-align: center;
   max-width: 600px;
   margin: 0 auto;
-  padding-bottom: var(--section-gap);
 }
 
 .contact-content p {
